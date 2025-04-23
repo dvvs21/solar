@@ -1,11 +1,4 @@
-<!-- Seu objetivo é apresentar informações sobre o propósito do site criado, bem como, as
-referências utilizadas para compor as imagens e textos apresentados. -->
 
-<!-- Site Planeta Terra: http://planeta-terra.info/sistema-solar.html
-Site Só Biologia: http://www.sobiologia.com.br/conteudos/Universo/sistemasolar.php
-Site da UFRGS: http://astro.if.ufrgs.br/esol/esol.htm
-Site Brasil Escola: http://www.brasilescola.com/geografia/cometa.htm
-Site Wikipedia: https://pt.wikipedia.org/wiki/Lua -->
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -17,18 +10,23 @@ Site Wikipedia: https://pt.wikipedia.org/wiki/Lua -->
     <link href="css/geral.css" rel="stylesheet">
     <link href="css/corpo.css" rel="stylesheet">
     <link href="css/rdp.css" rel="stylesheet">
+    <link href="css/menu.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
 
 </head>
-<body>
+<body class="conteudo">
     <header>
         <h1>Sobre</h1>
 
-        <nav>
+        <nav class="menu-vertical">
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="contato.html">Fale Conosco</a></li>
-                <li><a href="sobre.html">sobre</a></li>
-                <li>Planetas</li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <p>Planetas</p>
                     <ul>
                         <li><a href="mercurio.html">Mercúrio</a></li>       
                         <li><a href="venus.html">Vênus</a></li>
@@ -39,13 +37,13 @@ Site Wikipedia: https://pt.wikipedia.org/wiki/Lua -->
                         <li><a href="urano.html">Urano</a></li>
                         <li><a href="netuno.html">Netuno</a></li>
                     </ul>
-                <li>Astros</li>
+                <p>Astros</p>
                     <ul>
                         <li><a href="sol.html">Sol</a></li>
                         <li><a href="cometas.html">Cometas</a></li>
                         <li><a href="asteroides.html">Asteroídes</a></li>
                     </ul>        
-                <li>Satélites</li>
+                <p>Satélites</p>
                     <ul>
                         <li><a href="lua.html">Lua</a></li>
                     </ul>
@@ -54,16 +52,22 @@ Site Wikipedia: https://pt.wikipedia.org/wiki/Lua -->
     </header>
 
     <main>
-        <div>
-
+        <div class="sec">
+            <p>Este site foi criado com o objetivo de oferecer informações educativas e confiáveis sobre o sistema solar, explorando os principais corpos celestes, como planetas, luas e cometas. Nosso propósito é facilitar o entendimento e despertar o interesse pelo universo, trazendo conteúdos acessíveis e bem fundamentados.
+                <br>
+                Para garantir a precisão das informações, utilizamos diversas fontes de referência,incluindo o site <a href="http://planeta-terra.info/sistema-solar.html">Planeta Terra</a>, o <a href="http://www.sobiologia.com.br/conteudos/Universo/sistemasolar.php">Só Biologia</a>, o site da <a href="http://astro.if.ufrgs.br/esol/esol.htm">UFRGS</a>, o <a href="http://www.brasilescola.com/geografia/cometa.htm">Brasil Escola</a> e a <a href="https://pt.wikipedia.org/wiki/Lua">Wikipedia</a> e a imagens que ilustram cada assunto abordado nesse Site foram retiradas do <a>Google Fotos</a>. 
+                <br>
+                Essas referências nos ajudam a manter o conteúdo atualizado e confiável, proporcionando uma experiência educativa de qualidade para nossos visitantes.
+                <br>
+                Agradecemos por sua visita e esperamos que você aproveite o conteúdo para aprender mais sobre o fascinante universo que nos cerca!</p>
         </div>
     </main>
 
-    <footer>
+    <footer class="rodape">
         <ul>
             <li>Direitos reservados: Daniel Santos</li>
-            <li>E-mail para contato: dvvssantos@outlook.com</li>
-            <li>Programa em Python, unidade Botafogo - SENAC RJ</li>
+            <li>E-mail para contato: <span style="text-decoration: underline;color: blue;">dvvssantos@outlook</span></li>
+            <li>Programação em Python, unidade Botafogo - SENAC RJ</li>
             <li>2025</li>
         </ul>
     </footer>

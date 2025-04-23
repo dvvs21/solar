@@ -1,0 +1,17 @@
+.rodape ul{
+    width: 940px;
+    margin-top: 25px;
+    font-size: 10px;
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    text-transform:initial;
+    margin-right: 15px;
+    color: aliceblue;
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.rodape ul li{
+    padding-top: 10px;
+}

@@ -15,18 +15,24 @@ significado/representação do site que está sendo visitado. -->
     <link href="css/geral.css" rel="stylesheet">
     <link href="css/corpo.css" rel="stylesheet">
     <link href="css/rdp.css" rel="stylesheet">
+    <link href="css/menu.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+
 
 </head>
-<body>
+<body class="conteudo">
     <header>
-        <h1>O Sistema Solar</h1>
-
-        <nav>
+        
+        
+        <nav class="menu-vertical">
             <ul>
                 <li><a href="#">Inicio</a></li>
                 <li><a href="contato.html">Fale Conosco</a></li>
-                <li><a href="sobre.html">sobre</a></li>
-                <li>Planetas</li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <p>Planetas</p>
                     <ul>
                         <li><a href="mercurio.html">Mercúrio</a></li>       
                         <li><a href="venus.html">Vênus</a></li>
@@ -37,13 +43,13 @@ significado/representação do site que está sendo visitado. -->
                         <li><a href="urano.html">Urano</a></li>
                         <li><a href="netuno.html">Netuno</a></li>
                     </ul>
-                <li>Astros</li>
+                <p>Astros</p>
                     <ul>
                         <li><a href="sol.html">Sol</a></li>
                         <li><a href="cometas.html">Cometas</a></li>
                         <li><a href="asteroides.html">Asteroídes</a></li>
                     </ul>        
-                <li>Satélites</li>
+                <p>Satélites</p>
                     <ul>
                         <li><a href="lua.html">Lua</a></li>
                     </ul>
@@ -52,21 +58,43 @@ significado/representação do site que está sendo visitado. -->
     </header>
 
     <main>
+        <div class="popup">
+            <h4>Olá Seja bem vindo!</h4>
+            <p>Agradecemos por sua visita e esperamos que você aproveite o conteúdo para aprender mais sobre o fascinante universo que nos cerca!</p>
+        </div>
         <div>
-            <section>Até o século XVI, acreditava-se que a Terra era o centro do universo. Que tudo, inclusive o Sol,
-                girava em torno do eixo de nosso planeta. Mais tarde, com Nicolau Copérnico, começou-se a
-                considerar a ideia de que o Sol seria o centro do universo. Os anos se passaram e nossos
-                conhecimentos sobre o espaço se desenvolveram. Chegamos à resposta de que existe um
-                grande infinito: galáxias, outros planetas, estrelas maiores que o Sol. Por fim, vimos que o Sol,
-                influenciava diretamente a órbita de oito planetas, dentre eles, a Terra.
-                O Sistema Solar é formado pelo Sol e pelos planetas: Mercúrio, Vênus, Terra, Marte, Júpiter,
-                Saturno, Urano e Netuno. Os planetas seguem essa ordem partindo, como ponto inicial, o Sol.
-                Não só os planetas que circulam em torno do Sol: existem estrelas, satélites naturais (chamadas
-                de luas) e outros corpos espaciais. Todo o Sistema Solar está dentro de algo maior: a Via Láctea
-                (a galáxia formada por milhares de estrelas e corpos celestes e que abriga o Sistema Solar).</section>
+            <table class="tabela">
+                <thead>
+                    <tr>
+                        <th colspan="2" style="font-size: 50px; color:#fff8e7;">Sistema Solar</th>
+                    </tr>
+                </thead>    
+                <tbody>
+                    <tr>
+                        <td>
+                            <div style="position: relative;"><img src="img/sistema_geral.jpg" alt="visão geral sistema solar"></div>    
+                        </td>
+
+                        <td>
+                            <p>Até o século XVI, acreditava-se que a Terra era o centro do universo. Que tudo, inclusive o Sol,
+                                girava em torno do eixo de nosso planeta. Mais tarde, com Nicolau Copérnico, começou-se a
+                                considerar a ideia de que o Sol seria o centro do universo. Os anos se passaram e nossos
+                                conhecimentos sobre o espaço se desenvolveram. Chegamos à resposta de que existe um
+                                grande infinito: galáxias, outros planetas, estrelas maiores que o Sol. Por fim, vimos que o Sol,
+                                influenciava diretamente a órbita de oito planetas, dentre eles, a Terra.
+                                O Sistema Solar é formado pelo Sol e pelos planetas: Mercúrio, Vênus, Terra, Marte, Júpiter,
+                                Saturno, Urano e Netuno. Os planetas seguem essa ordem partindo, como ponto inicial, o Sol.
+                                Não só os planetas que circulam em torno do Sol: existem estrelas, satélites naturais (chamadas
+                                de luas) e outros corpos espaciais. Todo o Sistema Solar está dentro de algo maior: a Via Láctea
+                                (a galáxia formada por milhares de estrelas e corpos celestes e que abriga o Sistema Solar).</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            
         </div>
 
-        <div>
+        <div class="sec">
             <h3>Origem do Sistema Solar</h3>
             <section>O sol e o Sistema Solar tiveram origem há 4,5 bilhões de anos a partir de uma nuvem de gás e
                 poeira que girava ao redor de si mesma. Sob a ação de seu próprio peso, essa nuvem se
@@ -80,7 +108,7 @@ significado/representação do site que está sendo visitado. -->
                 Terra e Marte.</section>
         </div>
 
-        <div>
+        <div class="sec">
             <h3>Planetas do Sistema Solar</h3>
             <section>Os planetas não produzem luz, apenas refletem a luz do Sol, que é a estrela do Sistema Solar.
                 Teorias afirmam que os planetas também foram formados a partir de porções de massa muito
@@ -97,7 +125,7 @@ significado/representação do site que está sendo visitado. -->
                 olhe a figura.</section>
         </div>
 
-        <div>
+        <div class="sec">
             <h3>Planetas se Movimentam</h3>
             <h5>Movimento de Rotação</h5>
             <section>No movimento de rotação, os planetas giram em torno do seu próprio eixo, uma linha
@@ -114,7 +142,7 @@ significado/representação do site que está sendo visitado. -->
                 simultaneamente, é noite nas regiões não iluminadas (período escuro).</section>
         </div>
 
-        <div>
+        <div class="sec">
             <h5>Movimento de Translação</h5>
             <section>O movimento de translação é executado pelos planetas ao redor do Sol, e o tempo que levam
                 para dar uma volta completa é denominado período orbital. No caso da Terra esse período leva
@@ -152,11 +180,11 @@ significado/representação do site que está sendo visitado. -->
         </div>
     </main>
 
-    <footer>
+    <footer class="rodape">
         <ul>
             <li>Direitos reservados: Daniel Santos</li>
-            <li>E-mail para contato: dvvssantos@outlook.com</li>
-            <li>Programa em Python, unidade Botafogo - SENAC RJ</li>
+            <li>E-mail para contato: <span style="text-decoration: underline;color: blue;">dvvssantos@outlook</span></li>
+            <li>Programação em Python, unidade Botafogo - SENAC RJ</li>
             <li>2025</li>
         </ul>
     </footer>

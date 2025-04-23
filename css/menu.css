@@ -1,0 +1,44 @@
+  .menu-vertical {
+    width: 200px;
+    height: 100vh;
+    background-color: #222;
+    padding-top: 20px;
+    position:fixed;
+    left: 0;
+    top: 0;
+    overflow-y: auto;
+    font-family: "Barlow";
+  }
+
+  .menu-vertical ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .menu-vertical li {
+    border-bottom: 1px solid #333;
+    border-top: 1px solid #333;
+  }
+
+  .menu-vertical p{
+    color: white;
+    background-color: #3b3a38;
+    padding: 0;
+    margin:0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  
+
+  .menu-vertical a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .menu-vertical a:hover {
+    background-color: #444;
+  }
