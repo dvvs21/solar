@@ -10,6 +10,7 @@ represente uma figura relacionado ao seu título. -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema Solar</title>
 
+    <link href="img/fav.png" rel="icon">
     <link href="css/geral.css" rel="stylesheet">
     <link href="css/corpo.css" rel="stylesheet">
     <link href="css/rdp.css" rel="stylesheet">
@@ -59,25 +60,25 @@ represente uma figura relacionado ao seu título. -->
         </div>
         <div class="sec">
             <h3>Seja avisado quando a página estiver pronta</h3>
-            <form name="frmContato" id="idContato" action="#" method="post">
+            <form class="formulario" name="frmContato" id="idContato" action="#" method="post">
 
-                <div>
-                    <label for="idNome">Nome:</label>
+                <div class="formulario">
+                    <label class="label" for="idNome">Nome:</label>
                     <input id="idNome" type="text" name="nome" maxlength="70" required placeholder="Digite seu nome"> 
                 </div>
                 <br>
-                <div>
-                    <label for="idmail">E-mail:</label>
+                <div class="formulario">
+                    <label class="label" for="idmail">E-mail:</label>
                     <input id="idmail" type="email" name="idmail" maxlength="100" required placeholder="Digite seu E-mail"> 
                 </div>
                 <br>
-                <div>
+                <div class="formulario">
                     <input id="idinfo" type="checkbox" name="idinfo"  value="I" required>
                     <label for="idinfo">Desejo receber atualizações sobre esse site</label>
                 </div>
                 <br>
-                <div>
-                    <button name="enviar" id="idenviar">Enviar</button>
+                <div class="formulario">
+                    <button name="enviar" id="idenviar" type="submit">Enviar</button>
                 </div>
                 
             </form>
